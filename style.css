@@ -1,3 +1,9 @@
+*{
+    display: block;
+}
+title{
+    display: none;
+}
 div{
     font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -9,13 +15,25 @@ h3{
     background-color: lightcoral;
     color: white;
     text-align: center;
+    padding: 10px;
 }
 h4{
     color: lightseagreen;
 }
 a{
     color: lightseagreen;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 .tips{
     font-size: 12px;
+}
+li{
+    display: list-item;
+}
+
+/*{    
+    outline-width: 2px;
+    outline-color: red;
+    outline-style: solid;
 }
