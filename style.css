@@ -1,0 +1,21 @@
+div{
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    text-align: center;
+    color: lightcoral;
+}
+h3{
+    background-color: lightcoral;
+    color: white;
+    text-align: center;
+}
+h4{
+    color: lightseagreen;
+}
+a{
+    color: lightseagreen;
+}
+.tips{
+    font-size: 12px;
+}
