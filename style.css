@@ -1,15 +1,65 @@
 *{
     display: block;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 title{
     display: none;
 }
-div{
-    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    flex: 1 1 auto;
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 8px;
+    padding: 0;
+    list-style: none;
+    flex: 1 1 auto;
+}
+#index{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 8px;
+    padding: 0;
+    flex: 1 1 auto;
+    flex-direction: column;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    flex: 0 1 auto;
+}
+.img img{
+    display: block;
+}
+.whoami{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 0 2rem;
+    padding: 0;
+}
+.whoami li{
+    border: 2px solid lightseagreen;
+    padding: 8px;
 }
 h1{
     text-align: center;
     color: lightcoral;
+}
+.title{
+    font-size: 50px;
 }
 h3{
     background-color: lightcoral;
@@ -24,6 +74,11 @@ a{
     color: lightseagreen;
     margin-top: 10px;
     margin-bottom: 5px;
+}
+.why{
+    margin: 1rem;
+    border: 2px lightseagreen dotted;
+    padding: 8px;
 }
 .tips{
     font-size: 12px;
