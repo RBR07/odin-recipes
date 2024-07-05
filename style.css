@@ -39,8 +39,8 @@ title{
     gap: 1rem;
     flex: 0 1 auto;
 }
-.img img{
-    display: block;
+img{
+    width: 300px;
 }
 .whoami{
     display: flex;
